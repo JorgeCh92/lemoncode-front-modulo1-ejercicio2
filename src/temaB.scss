@@ -1,0 +1,28 @@
+div {
+    border-radius: 5%;
+}
+
+.base {
+    background-color: blue;
+}
+
+.important {
+    background-color: darkblue;
+}
+
+.warning {
+    background-color: lightskyblue;
+}
+
+.fontPrincipal {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fontSecondary {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxShadow {
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px dimgray;
+}

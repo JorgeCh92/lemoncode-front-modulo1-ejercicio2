@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 90vh;
+}
+
+.contenedor {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    div {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        div {
+            width: 30%;
+            height: 20%;
+        }
+    }
+}
+
+.temaA {
+    @import "temaA.scss";
+}
+
+.temaB {
+    @import "temaB.scss";
+}

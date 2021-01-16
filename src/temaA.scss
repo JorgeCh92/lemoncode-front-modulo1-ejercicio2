@@ -1,0 +1,24 @@
+.base {
+    background-color: red;
+}
+
+.important {
+    background-color: darkred;
+}
+
+.warning {
+    background-color: salmon;
+}
+
+.fontPrincipal {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fontSecondary {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.boxShadow {
+    border: 1px solid black;
+    box-shadow: -10px 10px 5px dimgray;
+}
